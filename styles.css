@@ -1,0 +1,90 @@
+body {
+    font-family: 'Trebuchet MS, sans-serif';
+    font-size: 16px;
+    background: #444444;
+    text-align: center;
+}
+
+#app{
+    padding-top: 70px;
+}
+
+.card{
+    z-index: 0;
+}
+
+.container{
+    justify-content: center;
+}
+
+.image-card{
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 50px;
+    width: auto;
+}
+
+.button-card{
+    padding: 5px;
+    margin-top: 50px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.image-tile{
+    max-width: 300px;
+    max-height: 300px;
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.image-col{
+    max-width: 360px;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-row{
+    max-height: 400px;
+    width: auto;
+    justify-content: center;
+}
+
+.page-header {
+    z-index: 1;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    background: #272227;
+    color: #F8F8F8;
+    min-width: 100%;
+}
+
+h1{
+    font-size: 30px;
+    padding: 5px;
+}
+
+h2{
+    font-size: 25px;
+    padding: 5px;
+}
+
+p{
+    text-align: justify;
+}
+
+.page-footer{
+    background: #272227;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
